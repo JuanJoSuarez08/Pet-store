@@ -25,6 +25,8 @@ export class LoginComponent implements OnInit {
     if (this.loginForm.valid) {
       // Lógica para autenticar al usuario
       console.log(this.loginForm.value);
+      alert('Registrado correctamente');
+
     } else {
       
     }
